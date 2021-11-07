@@ -1,0 +1,19 @@
+.content-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20%;
+  margin: 5%;
+}
+
+.dropdown-content-right a:hover {background-color: #ddd;}
+.dropdown-content-left a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content-right {
+  display: flex;
+}
+.dropdown:hover .dropdown-content-left {
+  display: flex;
+}
+
+.dropdown:hover .dropbtn {border-bottom: solid 1px #303030;}
